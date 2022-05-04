@@ -96,9 +96,9 @@ h1 {
 }  
 
 #videos-container {
-  width:100%%;
+  width:100%;
   float:left;
-  margin-top:10px;
+  margin-top:0px;
   padding:0px 10px 10px 0px;
 } 
 
@@ -206,7 +206,7 @@ img {
     }
 
     #videos-container {
-      width:100%%;
+      width:100%;
       padding:0px 0px 10px 0px;
     }
     #message-container {
