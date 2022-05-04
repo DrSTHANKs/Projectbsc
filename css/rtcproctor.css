@@ -96,7 +96,7 @@ h1 {
 }  
 
 #videos-container {
-  width:45%;
+  width:100%%;
   float:left;
   margin-top:10px;
   padding:0px 10px 10px 0px;
@@ -206,7 +206,7 @@ img {
     }
 
     #videos-container {
-      width:60%;
+      width:100%%;
       padding:0px 0px 10px 0px;
     }
     #message-container {
