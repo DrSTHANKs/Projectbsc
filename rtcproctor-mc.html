@@ -62,19 +62,10 @@
 
 <body>
 
-<div id="videos-container"></div>
-
 <h1 id="main-header">RTCProctor - Monitor+Chat Page</h1>
 
-<div class="stream-container">
-    <div id="message-container" style="display:none">
-         <div class="attention"><img src="media/hand_waving_red.png" id="attn-button"></div>         
-        <div contenteditabl="true" id="chatmsg-box" rows="8" readonly>
-            Click <img src="media/hand_waving_red.png" style="width:1.5em;"> to raise attention.<br>
-        </div>
-        <input type="text" id="msg-to-remote" placeholder="Type something here + [Enter] or [Send]">
-        <button type="submit" class="btn" id="send-msg" >Send</button>
-    </div>
+<div id="videos-container">
+            
 </div>
 
 <div class="main-container">    
@@ -86,6 +77,18 @@
         <button type="submit" class="btn" id="open-room">Go Live</button>
         <button type="submit" class="btn" id="join-room">Join</button>
         <button type="submit" class="btn" id="reset">Stop</button>
+    </div>
+    
+    <div class="stream-container">
+        
+        <div id="message-container" style="display:none">
+             <div class="attention"><img src="media/hand_waving_red.png" id="attn-button"></div>         
+            <div contenteditabl="true" id="chatmsg-box" rows="8" readonly>
+                Click <img src="media/hand_waving_red.png" style="width:1.5em;"> to raise attention.<br>
+            </div>
+            <input type="text" id="msg-to-remote" placeholder="Type something here + [Enter] or [Send]">
+            <button type="submit" class="btn" id="send-msg" >Send</button>
+        </div>
     </div>
     
 </div>
