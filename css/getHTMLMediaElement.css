@@ -34,7 +34,7 @@ Documentation - github.com/muaz-khan/WebRTC-Experiment/tree/master/getMediaEleme
 
 .media-box {
     background: black;
-    border: 10px solid rgb(107, 107, 107);
+    border: 1px solid rgb(107, 107, 107);
     margin: 1px;
 }
 
